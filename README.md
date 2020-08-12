@@ -1,8 +1,8 @@
 # python-concurrent-patterns
 ## Single Queue: single writer single reader
+### Hardware 4 CPU , 8 GB VM
 
-
-|Count|  Time (ms)| TPS (requests/second)|
+|Batch Count|  Time (ms)| TPS (requests/second)|
 |-----|-----------|----------------------|
 |0|100.94|99072.04|
 |1| 184.32|119920.86|
@@ -16,7 +16,7 @@
 |9| 951.04|114010.97|
 
 ## Single Queue: 2 writers and single reader
-|Count|   Time (ms) | TPS (requests/second)|
+|Batch Count|   Time (ms) | TPS (requests/second)|
 |-----|-------------|----------------------|
 |0    | 272.47      |         36701.29     |
 |1    | 547.76      |         36325.08    |
@@ -31,7 +31,7 @@
 
 ## Single Queue: 3 writers and single reader
 
- | Count| Time (ms) | TPS (requests/second)|
+ |Batch Count| Time (ms) | TPS (requests/second)|
  |------|-----------|----------------------|
 | 0     |324.54     |             30813.08|
 | 1     |583.02     |          38686.99|
