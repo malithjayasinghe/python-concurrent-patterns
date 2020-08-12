@@ -29,7 +29,7 @@
 |8    |2435.16        |       38638.45  | 
 |9    |2666.46        |       43233.96 |
 
-## Single Queue: 3 writer and single reader
+## Single Queue: 3 writers and single reader
 
  | Count| Time (ms) | TPS (requests/second)|
  |------|-----------|----------------------|
